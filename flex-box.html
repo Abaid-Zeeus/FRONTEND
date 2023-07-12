@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aqua;
+            margin: 2px;
+            padding: 2px;
+            border: 3px solid black;
+            display: flex;
+            height: 1200PX;
+            /* flex-direction: column; */
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+           
+            justify-content: start;
+            /* justify-content: flex-end; */
+            /* justify-content: flex-start; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            align-items: start;
+            /* flex-wrap: wrap-reverse; */
+            flex-wrap: wrap;
+            /* align-content: start; */
+            /* align-content: end; */
+            align-content:center;
+
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            margin: 2px;
+            padding: 2px;
+            border: 2px solid black;
+            
+        }
+        #bx1{
+            background-color: aquamarine;
+        }
+        #bx2{
+            background-color: darkgreen;
+        }
+        #bx3{
+            background-color: brown;
+        }
+        #bx4{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="bx1"></div>
+        <div class="box" id="bx2"></div>
+        <div class="box" id="bx3"></div>
+        <div class="box" id="bx4"></div>
+    </div>
+</body>
+</html>
